@@ -1,0 +1,57 @@
+﻿Calculating task graph as no cached configuration is available for tasks: :app:assembleDebug
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:desugarDebugFileDependencies
+> Task :app:extractDeepLinksDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:generateDebugResources
+> Task :app:javaPreCompileDebug
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:packageDebugResources
+> Task :app:generateDebugGlobalSynthetics
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:processDebugNavigationResources
+> Task :app:compileDebugNavigationResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:checkDebugAarMetadata
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so. Run with --info option to learn more.
+
+> Task :app:processDebugMainManifest
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:generateDebugRFile
+> Task :app:mergeDebugResources
+
+> Task :app:compileDebugKotlin
+w: file:///D:/Users/jin/AndroidStudioProjects/AndroidExp03/app/src/main/java/com/fjnu/jin/RecyclerActivity.kt:17:49 This annotation is currently applied to the value parameter only, but in the future it will also be applied to field.
+- To opt in to applying to both value parameter and field, add '-Xannotation-default-target=param-property' to your compiler arguments.
+- To keep applying to the value parameter only, use the '@param:' annotation target.
+
+See https://youtrack.jetbrains.com/issue/KT-73255 for more details.
+
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:compressDebugJavaRes
+> Task :app:mergeDebugJavaResource
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:createDebugApkListingFileRedirect
+
+BUILD SUCCESSFUL in 1m 2s
+36 actionable tasks: 36 executed
+Configuration cache entry stored.

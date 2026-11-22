@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AndroidExp03" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- 带 ActionBar 的主题，用于演示 XML 定义的选项菜单 -->
+    <style name="Theme.AndroidExp03.ActionBar" parent="android:Theme.Material.Light.DarkActionBar" />
+</resources>
